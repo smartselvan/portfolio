@@ -23,21 +23,23 @@
     font-size: 14px;
   }
   
+  .body-container{
+    display: grid;
+    width: 98vw;
+    grid-template-columns: 3fr 1fr;
+  }
+  .right-container{
+    border-left: solid 0.5px grey;
+    padding-left: 10px;
+  }
   .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-content: left;
-    gap: 2rem;
     font-size: 14px;
+  }
+  .education-section {
+    margin-top: 100px;
   }
   
-  .skills {
-    flex: 1;
-    max-width: 400px;
-    text-align: left;
-    font-size: 14px;
-  }
+
   
   .experience li{
       font-size: 14px;
