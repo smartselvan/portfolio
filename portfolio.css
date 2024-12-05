@@ -1,47 +1,45 @@
-.main-container {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  h4 {
-    font-weight: bold;
-    text-transform: uppercase;
-  
-  }
-  h5 {
-    font-weight: bold;
-    font-size: 15px;
-    margin: 5px 0px 5px;
-  }
-  
-  h6 {
-      font-weight: bold;
-      font-size: 13px;
-      margin: 5px 0px 5px;
-  }
-  p {
-    font-size: 14px;
-  }
-  
-  .body-container{
-    display: grid;
-    width: 98vw;
-    grid-template-columns: 3fr 1fr;
-  }
-  .right-container{
-    border-left: solid 0.5px grey;
-    padding-left: 10px;
-  }
-  .skills-container {
-    font-size: 14px;
-  }
-  .education-section {
-    margin-top: 100px;
-  }
-  
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h5 {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px 0px 5px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 5px 0px 5px;
+}
+p {
+  font-size: 14px;
+}
+li {
+  font-size: 14px;
+}
 
-  
-  .experience li{
-      font-size: 14px;
-  }
-  
+.main-container {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.body-container {
+  display: grid;
+  width: 98vw;
+  grid-template-columns: 3fr 1fr;
+}
+.right-container {
+  border-left: solid 0.5px grey;
+  padding-left: 10px;
+}
+.skills-container {
+  display: flex;
+  font-size: 14px;
+}
+.project-section {
+  margin-top: 20px;
+}
+.education-section {
+  margin-top: 50px;
+}
